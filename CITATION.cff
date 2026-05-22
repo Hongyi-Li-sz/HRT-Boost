@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "HRT-Boost"
+license: "MIT"
+authors:
+  - family-names: "Li"
+    given-names: "Hongyi"
+  - family-names: "Xu"
+    given-names: "Jun"
+  - family-names: "Yan"
+    given-names: "Hong"
+preferred-citation:
+  title: "Hinge Regression Trees and HRT-Boost: Newton-Optimized Oblique Learning for Compact Tabular Models"
+  authors:
+    - family-names: "Li"
+      given-names: "Hongyi"
+    - family-names: "Xu"
+      given-names: "Jun"
+    - family-names: "Yan"
+      given-names: "Hong"
+  year: 2026
+

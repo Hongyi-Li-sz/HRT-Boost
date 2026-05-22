@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hrt-boost"
+version = "0.1.0"
+description = "Official implementation of HRT-Boost for compact tabular regression"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Hongyi Li"},
+  {name = "Jun Xu"},
+  {name = "Hong Yan"},
+]
+dependencies = [
+  "numpy>=1.23",
+  "scikit-learn>=1.2",
+]
+
+[project.optional-dependencies]
+benchmark = [
+  "pandas>=1.5",
+  "matplotlib>=3.7",
+  "joblib>=1.2",
+  "xgboost>=1.7",
+  "lightgbm>=4.0",
+]
+deep = [
+  "torch>=2.0",
+  "pytorch-tabnet>=4.1",
+  "tabm>=0.0.3",
+]
+dev = [
+  "pytest>=7.0",
+  "ruff>=0.3.0",
+  "build>=1.0",
+  "twine>=4.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hrt_boost*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[project.urls]
+Homepage = "https://github.com/Hongyi-Li-sz/HRT-Boost"
+Repository = "https://github.com/Hongyi-Li-sz/HRT-Boost"
+Issues = "https://github.com/Hongyi-Li-sz/HRT-Boost/issues"
