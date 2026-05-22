@@ -1991,7 +1991,7 @@ with PdfPages(FINAL_PDF_NAME) as pdf:
             "HRT": {
                 "estimator": HRTRegressor(),
                 "params": {
-                    "max_depth": [4, 6, 8],
+                    "max_depth": [2, 4, 6],
                     "ridge_alpha": [0.01, 0.1, 1.0],
                     "min_points": [5, 10]
                 }
