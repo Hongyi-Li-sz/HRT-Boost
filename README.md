@@ -12,6 +12,7 @@ provided for ablation and benchmark comparison.
   <img src="docs/HRT.png" alt="HRT-Boost Architecture" width="80%">
 </p>
 
+
 ## Paper
 
 **Hinge Regression Trees and HRT-Boost: Newton-Optimized Oblique Learning for
@@ -19,7 +20,8 @@ Compact Tabular Models**
 
 Hongyi Li, Jun Xu*, Hong Yan
 
-*(Preprint coming soon)*
+[arXiv:2605.23422](https://arxiv.org/abs/2605.23422) | [PDF](https://arxiv.org/pdf/2605.23422)
+
 
 ## Relation to Hinge Regression Tree
 
@@ -147,9 +149,16 @@ MIT (see `LICENSE`).
 
 ## Citation
 
+If you find this repository useful, please cite:
 
 ```bibtex
-@article{li2026hrt_boost,
+@misc{li2026hingeregressiontreeshrtboost,
   title={Hinge Regression Trees and HRT-Boost: Newton-Optimized Oblique Learning for Compact Tabular Models},
-  author={Li, Hongyi and Xu, Jun and Yan, Hong},
+  author={Hongyi Li and Jun Xu and Hong Yan},
+  year={2026},
+  eprint={2605.23422},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2605.23422}
 }
+
